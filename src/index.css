@@ -26,24 +26,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 211 68% 15%;
 
-    --primary: 194 72% 62%;
+    --primary: 28 45% 52%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 200 55% 38%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 38 48% 58%;
+    --secondary-foreground: 28 35% 15%;
 
     --muted: 0 0% 96%;
     --muted-foreground: 200 20% 50%;
 
-    --accent: 38 40% 64%;
-    --accent-foreground: 211 68% 15%;
+    --accent: 38 55% 65%;
+    --accent-foreground: 28 35% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 200 20% 85%;
     --input: 200 20% 85%;
-    --ring: 194 72% 62%;
+    --ring: 28 45% 52%;
 
     --radius: 0.5rem;
 
@@ -51,10 +51,10 @@
     --sidebar-foreground: 211 68% 15%;
     --sidebar-primary: 211 68% 15%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 194 72% 62%;
+    --sidebar-accent: 28 45% 52%;
     --sidebar-accent-foreground: 211 68% 15%;
     --sidebar-border: 200 20% 85%;
-    --sidebar-ring: 194 72% 62%;
+    --sidebar-ring: 28 45% 52%;
   }
 
   .dark {
@@ -139,7 +139,7 @@
   }
 
   .pulse-chip {
-    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-pulse-50 text-pulse-700 border border-pulse-300;
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/30;
   }
   
   .section-container {
@@ -163,15 +163,15 @@
   }
   
   .button-primary {
-    @apply bg-pulse-500 hover:bg-pulse-600 text-white font-medium py-3 px-6 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-[1.02] active:scale-[0.98];
+    @apply bg-primary hover:bg-secondary text-white font-medium py-3 px-6 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-[1.02] active:scale-[0.98];
   }
 
   .button-secondary {
-    @apply bg-transparent border border-gray-300 hover:border-pulse-500 text-gray-800 hover:text-pulse-500 font-medium py-3 px-6 rounded-full transition-all duration-300;
+    @apply bg-transparent border border-gray-300 hover:border-primary text-gray-800 hover:text-primary font-medium py-3 px-6 rounded-full transition-all duration-300;
   }
   
   .nav-link {
-    @apply relative text-gray-800 hover:text-pulse-500 py-2 transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-pulse-500 after:transition-all hover:after:w-full;
+    @apply relative text-gray-800 hover:text-primary py-2 transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full;
   }
 }
 

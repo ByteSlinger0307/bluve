@@ -9,7 +9,7 @@ const SpecsSection = () => {
         <div className="flex items-center gap-4 mb-8 sm:mb-16">
           <div className="flex items-center gap-4">
             <div className="pulse-chip">
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">3</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-primary text-white mr-2">3</span>
               <span>Specs</span>
             </div>
           </div>
@@ -19,7 +19,7 @@ const SpecsSection = () => {
         {/* Main content with text mask image - responsive text sizing */}
         <div className="max-w-5xl pl-4 sm:pl-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display leading-tight mb-8 sm:mb-12">
-            <span className="block bg-clip-text text-transparent bg-gradient-to-r from-pulse-600 via-secondary to-accent">
+            <span className="block bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">
               Bluvé works with your brand, not beside it. By reflecting your identity through design, purity, and craftsmanship, Bluvé transforms something ordinary into an emblem of your essence — letting your space speak art, grace, and intention without words.
             </span>
           </h2>

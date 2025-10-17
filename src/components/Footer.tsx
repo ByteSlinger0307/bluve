@@ -12,7 +12,7 @@ const Footer = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-dark-900/80 to-pulse-900/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-dark-900/80 to-primary/80"></div>
       </div>
 
       {/* Content */}

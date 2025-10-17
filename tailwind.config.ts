@@ -63,19 +63,19 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for Bluvé
+				// Custom colors for Bluvé - Premium Museum Palette
 				pulse: {
-					"50": "#e8f8fc",
-					"100": "#c2eef7",
-					"200": "#9ae4f2",
-					"300": "#72daed",
-					"400": "#58c6e6", // Primary light blue
-					"500": "#3eb8dd",
-					"600": "#2a6f97", // Secondary darker blue
-					"700": "#1f5570",
-					"800": "#143b4a",
-					"900": "#0a2342", // Navy
-					"950": "#051423",
+					"50": "#faf6f4",
+					"100": "#f3ebe6",
+					"200": "#e5d4c9",
+					"300": "#d4b9a8",
+					"400": "#c09d88",
+					"500": "#a8836d", // Warm champagne
+					"600": "#8b6952", // Deep bronze
+					"700": "#6d4d3a",
+					"800": "#4a2f22",
+					"900": "#2d1810", // Deep espresso
+					"950": "#1a0d08",
 				},
 				dark: {
 					"900": "#0a2342", // Navy
@@ -149,9 +149,9 @@ export default {
 				'float': 'float 6s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'hero-gradient': 'linear-gradient(90deg, hsla(24, 100%, 83%, 1) 0%, hsla(341, 91%, 68%, 1) 100%)',
-				'hero-gradient-2': 'linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%)',
-				'pulse-gradient': 'linear-gradient(180deg, rgba(249,115,22,0.8) 0%, rgba(249,115,22,0) 100%)',
+				'hero-gradient': 'linear-gradient(90deg, hsl(38, 55%, 65%) 0%, hsl(28, 45%, 52%) 100%)',
+				'hero-gradient-2': 'linear-gradient(90deg, hsl(38, 48%, 58%) 0%, hsl(28, 40%, 48%) 100%)',
+				'pulse-gradient': 'linear-gradient(180deg, hsla(28, 45%, 52%, 0.3) 0%, hsla(28, 45%, 52%, 0) 100%)',
 			},
 			fontFamily: {
 				'sans': ['Inter', 'sans-serif'],
